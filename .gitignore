@@ -9,6 +9,9 @@ docker-compose.override.yml
 
 # Environment
 .env
+backup.sql
+backups/
+.DS_Store
 
 # Logs
 application/logs/*
