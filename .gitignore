@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Git
+.git
+
+# Docker
+docker-compose.override.yml
+
+# Environment
+.env
+
+# Logs
+application/logs/*
+!application/logs/index.html
+
+# Cache
+application/cache/*
+!application/cache/index.html
+
+# Temporary files
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
