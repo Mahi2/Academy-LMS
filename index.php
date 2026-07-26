@@ -337,4 +337,8 @@ flush();
 require_once BASEPATH . 'core/CodeIgniter.php';
 
 echo "STEP 2";
+echo "STEP 2<br>";
+
 require_once BASEPATH . 'core/CodeIgniter.php';
+
+echo "STEP 3<br>";
