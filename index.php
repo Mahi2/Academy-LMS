@@ -325,4 +325,16 @@ define('VIEWPATH', $view_folder . DIRECTORY_SEPARATOR);
  *
  * And away we go...
  */
+echo "STEP 1<br>";
+flush();
+
+echo "BASEPATH = " . BASEPATH . "<br>";
+flush();
+
+echo "APPLICATION = " . APPPATH . "<br>";
+flush();
+
+require_once BASEPATH . 'core/CodeIgniter.php';
+
+echo "STEP 2";
 require_once BASEPATH . 'core/CodeIgniter.php';
