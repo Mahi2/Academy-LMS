@@ -9,8 +9,6 @@ services:
     restart: unless-stopped
     ports:
       - "8080:80"
-    volumes:
-      - .:/var/www/html
     environment:
       MYSQL_HOST: ${MYSQL_HOST}
       MYSQL_USER: ${MYSQL_USER}
